@@ -9,3 +9,11 @@ class RegisterPage extends StatefulWidget {
   State<RegisterPage> createState() => _RegisterPageState();
 }
 
+class _RegisterPageState extends State<RegisterPage> {
+  final TextEditingController nameController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  final _formKey = GlobalKey<FormState>();
+
+ 
+}
